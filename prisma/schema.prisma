@@ -1,0 +1,167 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// 用户
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  avatar    String?
+  role      Role     @default(FREE)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subscriptions Subscription[]
+  conversations Conversation[]
+  alerts        Alert[]
+  bookmarks     Bookmark[]
+}
+
+enum Role {
+  FREE
+  PRO
+  ADMIN
+}
+
+// 订阅
+model Subscription {
+  id        String   @id @default(cuid())
+  userId    String
+  plan      String
+  status    String   @default("active")
+  startDate DateTime @default(now())
+  endDate   DateTime?
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+// 宏观分析报告
+model Report {
+  id          String   @id @default(cuid())
+  title       String
+  summary     String
+  content     String
+  category    String
+  tags        String[]
+  coverImage  String?
+  isPremium   Boolean  @default(false)
+  publishedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  bookmarks Bookmark[]
+}
+
+// 指数/市场数据
+model MarketData {
+  id        String   @id @default(cuid())
+  symbol    String
+  name      String
+  value     Float
+  change    Float
+  changePct Float
+  category  String
+  timestamp DateTime @default(now())
+
+  @@index([symbol, timestamp])
+}
+
+// Helen AI 对话
+model Conversation {
+  id        String    @id @default(cuid())
+  userId    String
+  title     String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  user      User      @relation(fields: [userId], references: [id])
+  messages  Message[]
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  role           String
+  content        String
+  metadata       Json?
+  createdAt      DateTime     @default(now())
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+}
+
+// 预警
+model Alert {
+  id        String   @id @default(cuid())
+  userId    String
+  type      String
+  condition Json
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+// 收藏
+model Bookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  reportId  String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id])
+  report    Report   @relation(fields: [reportId], references: [id])
+
+  @@unique([userId, reportId])
+}
+
+// 管理员
+model Admin {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String
+  email     String?
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// 系统配置
+model SystemConfig {
+  key         String   @id
+  value       String
+  description String?
+  updatedAt   DateTime @updatedAt
+}
+
+// 文章管理
+model Article {
+  id          String    @id @default(cuid())
+  title       String
+  content     String    @db.Text
+  category    String?
+  author      String?
+  sourceUrl   String?
+  coverImage  String?
+  status      String    @default("draft")
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+// 对话记录（用于后台统计分析）
+model ConversationLog {
+  id            String   @id @default(cuid())
+  userId        String?
+  agentId       String
+  question      String   @db.Text
+  answer        String?  @db.Text
+  agentsUsed    String[]
+  executionTime Int?
+  status        String   @default("success") // success, error
+  errorMessage  String?  @db.Text
+  createdAt     DateTime @default(now())
+
+  @@index([agentId, createdAt])
+  @@index([userId, createdAt])
+  @@index([createdAt])
+}

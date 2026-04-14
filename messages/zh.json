@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "brand": "问海伦",
+    "indicators": "Helen的指标分时图",
+    "market": "Helen的板块资金数据",
+    "library": "盘后三点",
+    "daily": "黄金周刊",
+    "chart": "每日一图",
+    "chat": "问海伦"
+  },
+  "hero": {
+    "title1": "问海伦",
+    "title2": "深海之下",
+    "title3": "黄金沉淀",
+    "subtitle": "Helen 是一位资深的宏观/量化分析师，这里是她在金融领域多年的沉淀。",
+    "cta1": "开始对话",
+    "cta2": "查看指标",
+    "stat1": "宏观指标",
+    "stat2": "分析报告",
+    "stat3": "实时监控",
+    "online": "Helen AI 在线"
+  },
+  "chat": {
+    "title": "和 Helen 的 OpenClaw Agent 分身对话",
+    "subtitle": "Helen 的 OpenClaw Agent 分身，承载她多年的宏观分析经验。由6个专业 Agent 组成，帮你解读市场数据、分析宏观趋势、提供指数建议。",
+    "greeting": "你好，我是 Helen 的 OpenClaw Agent 分身，承载她多年的宏观分析经验。你可以问我任何关于宏观经济、市场趋势、指数配置的问题。",
+    "status": "Helen 的 OpenClaw Agent 分身 · 实时在线",
+    "placeholder": "问 Helen 任何宏观问题...",
+    "send": "发送",
+    "loading": "加载中...",
+    "analyzing": "Helen 正在分析...",
+    "disclaimer": "仅供参考，不构成投资建议。",
+    "unavailable": "抱歉，服务暂时不可用。"
+  },
+  "features": {
+    "title": "深海探索，发现价值",
+    "subtitle": "Helen 整合全球宏观数据、量化模型和 AI 分析能力，在市场的波浪中为你找到沉淀的黄金。",
+    "indicators": {
+      "title": "Helen的指标分时图",
+      "desc": "秒级K线实时展示，覆盖黄金、白银、原油、铜等大宗商品及全球主要指数。"
+    },
+    "market": {
+      "title": "Helen的板块资金数据",
+      "desc": "全球市场实时行情，宏观经济指标追踪，GDP、CPI、PMI、利率一目了然。"
+    },
+    "library": {
+      "title": "盘后三点",
+      "desc": "视频课程、读书笔记、深度文案。Helen 的学习资料库，持续更新。"
+    },
+    "daily": {
+      "title": "黄金周刊",
+      "desc": "宏观分析笔记，黄金相关宏观与有色相关个股，穿透市场噪音。"
+    }
+  },
+  "cta": {
+    "title": "深海之下，黄金沉淀",
+    "subtitle": "注册即可免费体验 Helen 分身对话、查看市场数据和基础分析报告。",
+    "button": "免费注册"
+  },
+  "footer": {
+    "tagline": "深海之下，黄金沉淀。Helen 帮你穿透市场噪音，洞察宏观趋势，在波浪中找到方向。",
+    "platform": "平台",
+    "more": "更多",
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© 2026 Ask Helen. 仅供参考，不构成投资建议。投资有风险，入市需谨慎。"
+  },
+  "indicators": {
+    "title": "Helen的指标分时图",
+    "subtitle": "股票期货市场K线与预测分析",
+    "binanceRealtime": "Binance实时",
+    "symbols": {
+      "paxgGold": "PAXG黄金",
+      "goldFutures": "黄金期货",
+      "silver": "白银",
+      "oil": "原油",
+      "copper": "铜",
+      "sp500": "S&P 500",
+      "nasdaq": "纳斯达克",
+      "shanghai": "上证指数",
+      "hsi": "恒生指数",
+      "btc": "比特币",
+      "dxy": "美元指数"
+    }
+  },
+  "market": {
+    "title": "市场数据",
+    "subtitle": "全球主要市场实时行情概览",
+    "categories": {
+      "index": "主要指数",
+      "commodity": "大宗商品",
+      "crypto": "加密货币",
+      "forex": "外汇",
+      "bond": "债券"
+    }
+  },
+  "library": {
+    "title": "盘后三点",
+    "subtitle": "学习资料、视频课程、读书笔记",
+    "all": "全部",
+    "video": "视频",
+    "article": "文案",
+    "bookNote": "书摘",
+    "upload": "+ 上传内容",
+    "close": "关闭"
+  },
+  "daily": {
+    "title": "黄金周刊",
+    "subtitle": "宏观分析笔记，穿透市场噪音",
+    "goldMacro": "黄金相关宏观",
+    "metalStock": "有色相关个股",
+    "views": "阅读",
+    "comments": "评论"
+  },
+  "avatar": {
+    "label": "Helen 的分身"
+  },
+  "helenIntro": {
+    "title": "认识 Helen",
+    "desc1": "Helen 是一位拥有超过15年经验的资深宏观/量化分析师。她曾在多家顶级投资机构担任首席分析师，专注于全球宏观经济研究、大宗商品分析和量化策略开发。",
+    "desc2": "她的分析框架融合了传统宏观经济学、行为金融学和量化模型，在黄金、白银、原油等大宗商品领域有着深厚的研究积累。现在，她的经验和智慧通过 AI 分身的形式，为每一位投资者提供专业的分析服务。",
+    "watchVideo": "观看 Helen 的介绍视频",
+    "downloadNeuralFin": "下载 NeuralFin",
+    "comingSoon": "视频即将上线",
+    "stayTuned": "敬请期待"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "nickname": "昵称",
+    "nicknamePlaceholder": "输入你的昵称",
+    "email": "邮箱",
+    "emailPlaceholder": "your@email.com",
+    "password": "密码",
+    "passwordPlaceholder": "至少6位",
+    "freeRegister": "免费注册",
+    "orUse": "或使用",
+    "wechat": "微信",
+    "alipay": "支付宝",
+    "agreeTerms": "注册即表示同意",
+    "terms": "服务条款",
+    "and": "和",
+    "privacy": "隐私政策",
+    "devInProgress": "功能开发中"
+  },
+  "ticker": {
+    "shanghai": "上证指数",
+    "shenzhen": "深证成指",
+    "chinext": "创业板指",
+    "hsi": "恒生指数",
+    "sp500": "S&P 500",
+    "nasdaq": "纳斯达克",
+    "gold": "黄金",
+    "oil": "原油",
+    "btc": "BTC",
+    "dxy": "美元指数"
+  },
+  "common": {
+    "loading": "加载中..."
+  }
+}

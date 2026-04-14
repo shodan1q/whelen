@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "brand": "Ask Helen",
+    "indicators": "Helen's Indicators",
+    "market": "Helen's Data",
+    "library": "Helen's Library",
+    "daily": "Helen's Daily",
+    "chart": "Daily Chart",
+    "chat": "Ask Helen"
+  },
+  "hero": {
+    "title1": "Ask Helen",
+    "title2": "Beneath the Deep",
+    "title3": "Gold Settles",
+    "subtitle": "Helen is a seasoned macro/quantitative analyst. This is her years of accumulation in the financial field.",
+    "cta1": "Start Chat",
+    "cta2": "View Indicators",
+    "stat1": "Macro Indicators",
+    "stat2": "Analysis Reports",
+    "stat3": "Real-time Monitoring",
+    "online": "Helen AI Online"
+  },
+  "chat": {
+    "title": "Chat with Helen's OpenClaw Agent Avatar",
+    "subtitle": "Helen's OpenClaw Agent avatar, carrying her years of macro analysis experience. Composed of 6 professional Agents to help you interpret market data, analyze macro trends, and provide index recommendations.",
+    "greeting": "Hello, I am Helen's OpenClaw Agent avatar, carrying her years of macro analysis experience. You can ask me anything about macroeconomics, market trends, and index allocation.",
+    "status": "Helen's OpenClaw Agent Avatar · Online",
+    "placeholder": "Ask Helen any macro question...",
+    "send": "Send",
+    "loading": "Loading...",
+    "analyzing": "Helen is analyzing...",
+    "disclaimer": "For reference only, does not constitute investment advice.",
+    "unavailable": "Sorry, service is temporarily unavailable."
+  },
+  "features": {
+    "title": "Deep Sea Exploration, Discover Value",
+    "subtitle": "Helen integrates global macro data, quantitative models, and AI analysis capabilities to find settled gold for you in the waves of the market.",
+    "indicators": {
+      "title": "Helen's Indicators",
+      "desc": "Real-time second-level K-line display, covering gold, silver, crude oil, copper and other commodities and major global indices."
+    },
+    "market": {
+      "title": "Helen's Data",
+      "desc": "Global market real-time quotes, macro economic indicator tracking, GDP, CPI, PMI, interest rates at a glance."
+    },
+    "library": {
+      "title": "Helen's Library",
+      "desc": "Video courses, reading notes, in-depth articles. Helen's learning resource library, continuously updated."
+    },
+    "daily": {
+      "title": "Helen's Daily",
+      "desc": "Macro analysis notes, gold-related macro and non-ferrous related stocks, penetrating market noise."
+    }
+  },
+  "cta": {
+    "title": "Beneath the Deep, Gold Settles",
+    "subtitle": "Register for free to experience Helen avatar chat, view market data and basic analysis reports.",
+    "button": "Free Registration"
+  },
+  "footer": {
+    "tagline": "Beneath the deep, gold settles. Helen helps you penetrate market noise, gain insight into macro trends, and find direction in the waves.",
+    "platform": "Platform",
+    "more": "More",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 Ask Helen. For reference only, does not constitute investment advice. Investment involves risks, enter the market with caution."
+  },
+  "indicators": {
+    "title": "Helen's Indicators",
+    "subtitle": "Stock & Futures Market K-line and Forecast Analysis",
+    "binanceRealtime": "Binance Realtime",
+    "symbols": {
+      "paxgGold": "PAXG Gold",
+      "goldFutures": "Gold Futures",
+      "silver": "Silver",
+      "oil": "Crude Oil",
+      "copper": "Copper",
+      "sp500": "S&P 500",
+      "nasdaq": "Nasdaq",
+      "shanghai": "Shanghai Index",
+      "hsi": "Hang Seng Index",
+      "btc": "Bitcoin",
+      "dxy": "US Dollar Index"
+    }
+  },
+  "market": {
+    "title": "Market Data",
+    "subtitle": "Global Major Markets Real-time Overview",
+    "categories": {
+      "index": "Major Indices",
+      "commodity": "Commodities",
+      "crypto": "Cryptocurrency",
+      "forex": "Forex",
+      "bond": "Bonds"
+    }
+  },
+  "library": {
+    "title": "Helen's Library",
+    "subtitle": "Learning Materials, Video Courses, Reading Notes",
+    "all": "All",
+    "video": "Video",
+    "article": "Article",
+    "bookNote": "Book Note",
+    "upload": "+ Upload Content",
+    "close": "Close"
+  },
+  "daily": {
+    "title": "Helen's Daily",
+    "subtitle": "Macro analysis notes, penetrating market noise",
+    "goldMacro": "Gold-related Macro",
+    "metalStock": "Non-ferrous Stocks",
+    "views": "views",
+    "comments": "comments"
+  },
+  "avatar": {
+    "label": "Helen's Avatar"
+  },
+  "helenIntro": {
+    "title": "Meet Helen",
+    "desc1": "Helen is a seasoned macro/quantitative analyst with over 15 years of experience. She has served as Chief Analyst at multiple top investment institutions, specializing in global macroeconomic research, commodity analysis, and quantitative strategy development.",
+    "desc2": "Her analytical framework integrates traditional macroeconomics, behavioral finance, and quantitative models, with deep research accumulation in gold, silver, crude oil and other commodities. Now, her experience and wisdom are available to every investor through her AI avatar.",
+    "watchVideo": "Watch Helen's Introduction Video",
+    "downloadNeuralFin": "Download NeuralFin",
+    "comingSoon": "Video Coming Soon",
+    "stayTuned": "Stay Tuned"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "nickname": "Nickname",
+    "nicknamePlaceholder": "Enter your nickname",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "freeRegister": "Free Registration",
+    "orUse": "Or use",
+    "wechat": "WeChat",
+    "alipay": "Alipay",
+    "agreeTerms": "By registering you agree to",
+    "terms": "Terms of Service",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "devInProgress": "Feature in development"
+  },
+  "ticker": {
+    "shanghai": "Shanghai Index",
+    "shenzhen": "Shenzhen Index",
+    "chinext": "ChiNext",
+    "hsi": "Hang Seng",
+    "sp500": "S&P 500",
+    "nasdaq": "Nasdaq",
+    "gold": "Gold",
+    "oil": "Crude Oil",
+    "btc": "BTC",
+    "dxy": "DXY"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}
